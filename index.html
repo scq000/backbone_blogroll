@@ -17,10 +17,25 @@
 					<th>URL</th>
 					<th>Action</th>
 				</tr>
+				<tr>
+					<td><input class="author-input form-control"></td>
+					<td><input class="title-input form-control"></td>
+					<td><input class="url-input form-control"></td>
+					<td><button class="add-blog btn btn-primary">Add</td>
+				</tr>
 			</thead>
+			<tbody class="blogs-list">
+				
+			</tbody>
 		</table>
 	</div>
 	
+	<script type="text/template" class="blogs-list-template">
+			<td><span class="author"><%= author %></span></td>
+			<td><span class="title"><%= title %></span></td>
+			<td><span class="url"><%= url %></span></td>
+			<td><button class="btn btn-warning edit-blog">Edit</button><button class="btn btn-danger delete-blog">Delete</button></td>
+	</script>
 
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
