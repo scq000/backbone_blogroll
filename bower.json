@@ -1,0 +1,19 @@
+{
+  "name": "backbone_blogroll",
+  "version": "0.0.0",
+  "homepage": "https://github.com/scq000/backbone_blogroll",
+  "authors": [
+    "scq000 <scq000@hotmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "bootstrap": "~3.3.6"
+  }
+}
